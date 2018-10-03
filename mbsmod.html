@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>MBII smod Value Calculator</title>
+  <link rel="stylesheet" href="mbsmod.css">
+  <link rel="shortcut icon" href="favicon.ico">
+ </head>
+ 
+ <body>
+
+ <noscript> <h1 id="nojs">JavaScript is disabled. This page requires JavaScript. Please enable it in your browser's settings.</h1> </noscript>
+
+ <div>
+  <img src="mbii%20logo.png" alt="MBII Logo" class=headelem>
+  <h2 class="headelem"> <a href="https://community.moviebattles.org/">Movie Battles II</a> smod Value Calculator</h2>
+ </div> 
+ 
+ <p class="lbl">Check what commands should be available for admin of a server:</p>
+ <table id="flags" class="flags"> 
+  <tbody> </tbody>
+ </table> 
+
+ <div id="res">
+ <input type="button" value="All / none" id="checkall">
+ <input type="button" value="Reset" id="reset" disabled>
+ <input type="button" value="Copy" id="copy">
+ <input type="button" value="Paste" id="paste">
+ <div class="lbl">This goes to the server's config:</div>  
+ <span id="exampletext">seta g_smodConfig_4 </span>
+ <input id="result" type="text"> 
+ <div>Tip: you can paste values from your config to a text box to see what rights are currently enabled.</div>
+ </div>
+
+ <div id="clear"></div>
+ <div id="divider"></div>
+ <div id="cfghld">
+ 
+ <p id="pasteconfig">Paste a config here to see list of smods:</p> 
+ <div id="cfginner">
+  <div id="linenumbers"><span id="linenumbersinn"></span></div>
+  <div id="cfginner2">
+	 <textarea id="config" rows="10" cols="80"></textarea>
+	</div>
+ </div>
+
+ <table id="smods">
+  <thead> <tr> <th>ID</th> <th>Lines</th> <th>Commands</th> <th>Password</th> </tr> </thead>
+  <tbody></tbody>
+ </table>
+
+ </div>
+ 
+ <div id="dlgback" class="dlgback dispnone">
+  <div id="dlgframe">
+   <div id="dlgcaption">
+    <span id="btnclose">x</span>
+    <h2 id="dlgtitle">x</h2>
+    <span id="dlgtitletext">Choose Commands for smod </span>
+   </div>   
+   <div id="dlgcontent"></div>
+   <div id="buttons">
+    <span id="btnright">
+     <input type="button" value="OK" id="btnok">
+     <input type="button" value="Cancel" id="btncancel">
+    </span>
+   </div>
+  </div>
+ </div>
+
+ <div id="copyr">Version 1.6, 11.06.16. Author: <a href="https://community.moviebattles.org/members/puppytine.200/">Puppytine</a>. License: public domain.</div>
+
+ <script src="mbsmod.js"></script>
+
+ </body>
+</html>

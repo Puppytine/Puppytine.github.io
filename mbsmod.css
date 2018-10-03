@@ -1,0 +1,237 @@
+.nomargin {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nojs {
+ background-Color: red;
+ border-color: gray;
+ border-style: double;
+ border-width: 5px;
+ font-family: verdana, sans-serif;
+ font-size: 14pt;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 10%;
+ padding: 5px;
+ text-align: center;
+}
+
+.headelem {
+ display: inline;
+ height: auto;
+ margin: 0px;
+ padding: 0px;
+ vertical-align: middle;
+ width: auto;
+}
+
+.lbl {
+ margin-bottom: 3px;
+}
+
+table {
+ border: 1px solid #399;
+ border-spacing: 5px 3px;
+ float: left;
+}
+
+#flags {
+ margin-right: 15px;
+}
+
+.flags td:first-child + td, .flags td:first-child + td + td, #smods td:first-child {
+ text-align: right;
+}
+
+.flags tr:hover, #smods td:first-child + td + td:hover  {
+ background: PaleGreen;
+ cursor: pointer;
+}
+
+td {
+ padding: 1px 10px;
+}
+
+tr {
+ background: #ffe6b3;
+}
+
+.chkrow {
+ background: #b3c6ff;
+}
+
+#res  {
+ margin-left: 15px;
+ overflow: auto;
+}
+
+#checkall {
+	min-width: 100px;
+}
+
+.invnum {
+ color: red;
+}
+
+#exampletext, #result, #config {
+ font-family: monospace;
+}
+
+#clear {
+ clear: both;
+}
+
+#divider {
+ background-color: gray;
+ height: 5px;
+ margin-top: 20px;
+ width: 100%;
+}
+
+#cfghld {
+ 	clear: both;
+	float: none;
+}
+
+#pasteconfig {
+ margin-bottom: 3px;
+}
+
+#linenumbers {
+ border: 1px solid #C0C0C0;
+ box-sizing: border-box;
+ color: #AAAAAA;
+ float: left;
+ font-family: monospace;
+ min-width: 3em;
+ min-width: 5ch;
+ overflow: hidden;
+ padding: 0% 8px;
+ text-align: right;
+ width: 50px;
+}
+
+#linenumbersinn {
+	position: relative;
+}
+
+#smods {
+	clear: both;
+ float: none;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+}
+
+#smods td:first-child + td {
+ white-space: nowrap;
+}
+
+.smodseditor {
+ margin: 0%;
+ padding: 0%;
+}
+
+.dlgback {
+ background: #000000;
+ background: rgba(0,0,0,0.4); 
+ height: 100%;
+ left: 0;
+ min-height: 100%;
+ overflow: auto;
+ position: absolute;
+ top: 0;
+ text-align: center;
+ width: 100%;
+ z-index: 100;
+}
+
+.dlgbackie6 {
+	background: #000000;
+	display: block;
+	position: absolute;
+	top: 0;
+}
+
+.dispflex {
+	display: block;
+	display: flex;
+	position: fixed;
+}
+
+.dispnone {
+	display: none;
+}
+
+#dlgframe {
+ background-color: #fefefe;
+ border: 1px solid #888;
+ display: table;
+ margin: auto;
+ text-align: left;
+ width: auto;
+}
+
+#dlgcaption {
+ background-color: #5cb85c;
+ color: white;
+ padding: 2px 16px;
+}
+
+#dlgtitle {
+ margin-bottom: 5px;
+ margin-top: 5px;
+}
+
+#dlgtitletext {
+ display: none;
+}
+
+#btnclose {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+#btnclose:hover, #btnclose:focus {
+ color: black;
+ cursor: pointer;
+ text-decoration: none;
+}
+
+#dlgcontent {
+	margin-top: 10px;
+ padding: 2px 16px;
+}
+
+#dlgflags {
+	float: none;
+}
+
+#buttons {
+ margin: 15px;
+}
+
+#btnright {
+ float: right; 
+}
+
+#btnok, #btncancel {
+ min-width: 100px;
+}
+
+#copyr {
+ clear: both;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ text-align: center;
+ width: 100%;
+}
+
+#copyr, #copyr  a {
+ background-color: #e6e6e6;
+ color: #999999;
+ font-size: 12px;
+}
